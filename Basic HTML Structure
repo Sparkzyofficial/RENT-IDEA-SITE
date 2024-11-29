@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentEase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <h1>RentEase</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#listings">Listings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Find Affordable Rentals in Lagos</h2>
+            <p>Rent directly from individuals and save more.</p>
+            <button onclick="window.location.href='#listings'">Browse Listings</button>
+        </div>
+    </section>
+
+    <!-- Property Listings -->
+    <section id="listings">
+        <h2>Available Listings</h2>
+        <div class="listing-container">
+            <!-- Example Property Listing -->
+            <div class="listing-card">
+                <img src="house1.jpg" alt="House 1">
+                <h3>3-Bedroom House</h3>
+                <p>Location: Surulere</p>
+                <p>Price: ₦150,000/month</p>
+                <button>Contact Owner</button>
+            </div>
+            <!-- More listings can go here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact us at info@rentease.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
